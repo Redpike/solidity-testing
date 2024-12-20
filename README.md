@@ -80,3 +80,17 @@ If You want to see the coverage, then run command:
 ```shell
 npx hardhat coverage
 ```
+
+If You want to know the metrics of how much gas has been used, based on execution of your tests, then run command:
+
+Unix:
+
+```shell
+REPORT_GAS=true npx hardhat test
+```
+
+Windows:
+
+```shell
+$env:REPORT_GAS="true"; npx hardhat test
+```
