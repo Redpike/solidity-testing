@@ -67,3 +67,16 @@ Deploy smart contract on Your local blockchain (based on Smart Contract name):
 npx hardhat run scripts/deploy.ts --network ganache
 ```
 
+## 3. Testing
+
+Run command:
+
+```shell
+npx hardhat test
+```
+
+If You want to see the coverage, then run command:
+
+```shell
+npx hardhat coverage
+```
