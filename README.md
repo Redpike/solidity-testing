@@ -72,7 +72,7 @@ npx hardhat run scripts/deploy.ts --network ganache
 Run command:
 
 ```shell
-npx hardhat test
+npx hardhat test --network ganache
 ```
 
 If You want to see the coverage, then run command:
@@ -86,11 +86,11 @@ If You want to know the metrics of how much gas has been used, based on executio
 Unix:
 
 ```shell
-REPORT_GAS=true npx hardhat test
+REPORT_GAS=true npx hardhat test --network ganache
 ```
 
 Windows:
 
 ```shell
-$env:REPORT_GAS="true"; npx hardhat test
+$env:REPORT_GAS="true"; npx hardhat test --network ganache
 ```
