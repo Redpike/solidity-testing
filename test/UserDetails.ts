@@ -6,7 +6,7 @@ describe('UserDetails', () => {
 
   let userDetailsContract: UserDetails;
 
-  beforeEach(async () => {
+  before(async () => {
     userDetailsContract = await hre.ethers.deployContract('UserDetails');
   });
 
