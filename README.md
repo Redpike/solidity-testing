@@ -22,7 +22,7 @@ Build Ganache docker container:
 
 ```shell
 docker build -t solidity-testing-ganache:1.0.0 .
-docker run --name solidity-testing-ganache -p 18545:8545 -d solidity-testing-ganache:1.0.0
+docker run --name solidity-testing-ganache -p 28545:8545 -d solidity-testing-ganache:1.0.0
 ```
 
 Expected result:
