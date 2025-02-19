@@ -51,9 +51,10 @@ contract UserDetails {
 
     function unregister(address _addr) public {
         require(isRegistered[msg.sender], "User doesn't exist");
+        require(isRegistered[_addr], "User doesn't exist");
 
         delete (users[_addr]);
-        isRegistered[msg.sender] = false;
+        isRegistered[_addr] = false;
 
         registeredUsers--;
         emit UserDeleted(_addr);
